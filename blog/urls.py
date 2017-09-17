@@ -22,7 +22,7 @@ from post import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^blog/', include('post.urls', namespace='post')),
+    url(r'^blog/', include('post.urls', namespace='blog')),
 ]
 
 if settings.DEBUG:
